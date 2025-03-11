@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elecciones Universidad Libre</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="container">
+        <img class="logo" src="./img/logo.png" alt="">
+        <h2>Votaciones Electorales</h2>
+
+        <form>
+            <div class="option">
+                <input type="radio" id="option1" name="vote" value="01">
+                <label for="option1">01</label>
+            </div>
+            <div class="option">
+                <input type="radio" id="option2" name="vote" value="02">
+                <label for="option2">02</label>
+            </div>
+            <div class="option">
+                <input type="radio" id="option3" name="vote" value="03">
+                <label for="option3">03</label>
+            </div>
+            <div class="buttons">
+                <button type="reset" class="cancel">Cancel</button>
+                <button type="submit" class="submit">Submit</button>
+            </div>
+        </form>
+
+        <h3>Current results</h3>
+        <div class="results">
+            <div class="result">
+                <span>01</span>
+                <div class="bar">
+                    <div class="fill" style="width: 60%;"></div>
+                </div>
+                <span>60%</span>
+            </div>
+            <div class="result">
+                <span>02</span>
+                <div class="bar">
+                    <div class="fill" style="width: 20%;"></div>
+                </div>
+                <span>20%</span>
+            </div>
+            <div class="result">
+                <span>03</span>
+                <div class="bar">
+                    <div class="fill" style="width: 20%;"></div>
+                </div>
+                <span>20%</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
